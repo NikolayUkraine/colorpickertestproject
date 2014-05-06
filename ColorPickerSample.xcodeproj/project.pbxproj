@@ -29,8 +29,6 @@
 		34E9090F18B37A0F00AD4DF1 /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 34E9090E18B37A0F00AD4DF1 /* XCTest.framework */; };
 		34E9091018B37A0F00AD4DF1 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 34E908F518B37A0F00AD4DF1 /* Foundation.framework */; };
 		34E9091118B37A0F00AD4DF1 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 34E908F918B37A0F00AD4DF1 /* UIKit.framework */; };
-		34E9091918B37A0F00AD4DF1 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 34E9091718B37A0F00AD4DF1 /* InfoPlist.strings */; };
-		34E9091B18B37A0F00AD4DF1 /* ColorPickerTestProjectTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 34E9091A18B37A0F00AD4DF1 /* ColorPickerTestProjectTests.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -76,9 +74,6 @@
 		34E9090718B37A0F00AD4DF1 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		34E9090D18B37A0F00AD4DF1 /* ColorPickerSampleTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ColorPickerSampleTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		34E9090E18B37A0F00AD4DF1 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
-		34E9091618B37A0F00AD4DF1 /* ColorPickerSampleTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "ColorPickerSampleTests-Info.plist"; sourceTree = "<group>"; };
-		34E9091818B37A0F00AD4DF1 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
-		34E9091A18B37A0F00AD4DF1 /* ColorPickerTestProjectTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ColorPickerTestProjectTests.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -196,7 +191,6 @@
 			isa = PBXGroup;
 			children = (
 				34E908FB18B37A0F00AD4DF1 /* ColorPickerTestProject */,
-				34E9091418B37A0F00AD4DF1 /* ColorPickerTestProjectTests */,
 				34E908F418B37A0F00AD4DF1 /* Frameworks */,
 				34E908F318B37A0F00AD4DF1 /* Products */,
 			);
@@ -244,24 +238,6 @@
 				34E908FE18B37A0F00AD4DF1 /* InfoPlist.strings */,
 				34E9090118B37A0F00AD4DF1 /* main.m */,
 				34E9090318B37A0F00AD4DF1 /* ColorPickerSample-Prefix.pch */,
-			);
-			name = "Supporting Files";
-			sourceTree = "<group>";
-		};
-		34E9091418B37A0F00AD4DF1 /* ColorPickerTestProjectTests */ = {
-			isa = PBXGroup;
-			children = (
-				34E9091A18B37A0F00AD4DF1 /* ColorPickerTestProjectTests.m */,
-				34E9091518B37A0F00AD4DF1 /* Supporting Files */,
-			);
-			path = ColorPickerTestProjectTests;
-			sourceTree = "<group>";
-		};
-		34E9091518B37A0F00AD4DF1 /* Supporting Files */ = {
-			isa = PBXGroup;
-			children = (
-				34E9091618B37A0F00AD4DF1 /* ColorPickerSampleTests-Info.plist */,
-				34E9091718B37A0F00AD4DF1 /* InfoPlist.strings */,
 			);
 			name = "Supporting Files";
 			sourceTree = "<group>";
@@ -356,7 +332,6 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				34E9091918B37A0F00AD4DF1 /* InfoPlist.strings in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -383,7 +358,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				34E9091B18B37A0F00AD4DF1 /* ColorPickerTestProjectTests.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -402,14 +376,6 @@
 			isa = PBXVariantGroup;
 			children = (
 				34E908FF18B37A0F00AD4DF1 /* en */,
-			);
-			name = InfoPlist.strings;
-			sourceTree = "<group>";
-		};
-		34E9091718B37A0F00AD4DF1 /* InfoPlist.strings */ = {
-			isa = PBXVariantGroup;
-			children = (
-				34E9091818B37A0F00AD4DF1 /* en */,
 			);
 			name = InfoPlist.strings;
 			sourceTree = "<group>";
