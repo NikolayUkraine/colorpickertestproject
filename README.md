@@ -5,14 +5,16 @@ Color-picker that handles touch events, allows for color control.
 **Screenshots:**
 
 
+
+
 1)
 
-![alt tag](https://raw.githubusercontent.com/mobidevpublisher/colorpickertestproject/master/IMG_1.PNG =320x460)
+<img src="https://raw.githubusercontent.com/mobidevpublisher/colorpickertestproject/master/IMG_1.PNG" width="320" height="460">
 
 2)
 
-![alt tag](https://raw.githubusercontent.com/mobidevpublisher/colorpickertestproject/master/IMG_2.PNG =320x460)
+<img src="https://raw.githubusercontent.com/mobidevpublisher/colorpickertestproject/master/IMG_2.PNG" width="320" height="460">
 
 3)
 
-![alt tag](https://raw.githubusercontent.com/mobidevpublisher/colorpickertestproject/master/IMG_3.PNG =320x460)
+<img src="https://raw.githubusercontent.com/mobidevpublisher/colorpickertestproject/master/IMG_3.PNG" width="320" height="460">
